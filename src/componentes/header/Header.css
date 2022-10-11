@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: "bulsara";
+    src: url(../header/fuentes/bulsara.ttf)
+    
+  }
+  
+  .estiloHeader{
+    width: 100%;
+    min-height: 220px;
+    background: linear-gradient(#219900, #7ca172);
+    
+  }
+
+  .estiloHeader h1{
+    font-size: 8vw;
+    font-weight: 200;
+    text-align: center; 
+    font-family: bulsara;
+    text-shadow: 0 0 40px whitesmoke;
+  }
+ 
+
+
+.displayMenu{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+
+
+.displayCarrito{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+  }
+ 

@@ -1,0 +1,24 @@
+Promises
+
+Creo una funcion
+function consultarPromesa (confirmacion){           //la variable que recibo
+    return new Promise ((res, rej)=>{               //res si pude coectarme con el servidor, rej si no se cumple la promesa voy a rechazar la conexion
+        if (confirmacion==true){
+            res ("Correcto")
+        }else {
+            rej("Acceso denegado")
+        }
+    })
+    
+}
+
+
+Codigo en el componenete
+
+     consultarPromesa(true)     //consulto al servidor externo mediante la promesa que esta en una funcion
+    .then(producto=>{               //cuando la promesa llegue, nose cuando, consulto la informaicon que trae, o sea los valores
+        console.log(producto)
+    })
+    .catch(error=>{                 //si hay un error en la promesa, muestro mensaje de error
+        console.error(error)        
+    })

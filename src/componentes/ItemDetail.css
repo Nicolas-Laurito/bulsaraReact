@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "bulsara";
+    src: url(./header/fuentes/bulsara.ttf)
+    
+  }
+
+.nuevoCard{
+display: flex;
+flex-direction: row;
+height: 300px;
+width: 70%;
+
+}
+
+
+.nuevoCard1{
+    width: 30%;
+ 
+    margin-left:20px ;
+    padding-top: 20px;
+}
+.nuevoCard1 h2{
+    font-size: 20px;
+    color: black;
+    font-family: 'bulsara';
+    font-weight: 10;
+    text-align: center;
+    text-shadow: none;
+}
+.nuevoCard1 p{
+    font-size: 20px;
+    text-align: center;
+}
+.nuevoCard2{
+    text-align: center;
+    margin-left:60px ;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+
+.nuevoIMG{
+    padding-top: 20px;
+    
+}

@@ -1,0 +1,29 @@
+.estiloCard{
+    width: 200px;
+    height: 200px;
+  
+    
+}
+
+.card{
+    margin: 10px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    padding: 10px;
+    position: inherit;
+    box-shadow: 8px 8px 8px 8px rgba(128, 128, 128, 0.521);
+
+}
+.card h2{
+    color: black;
+    font-family: 'bulsara';
+    text-shadow: none;
+    font-weight: normal;
+    font-size: 15px;
+
+}
+
+.card btn:hover{
+    transform: none;
+    
+}

@@ -1,0 +1,22 @@
+.sec1{
+    width: 100%;
+    background-color: black;
+    opacity: 0.98;
+}
+
+.carousel-item img{
+        width: 50%;
+        margin-left: 25%;
+        padding: 10px;
+        border-radius: 0;
+}
+
+.botonSlide{
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        background-color: #008f21;
+} 
+
+
+

@@ -1,0 +1,24 @@
+.estiloIcono a{
+font-size: 45px;
+color: rgba(0, 0, 0, 0.671) ;
+text-decoration: none;
+}
+
+.estiloIcono a:hover{
+    color: black;
+}
+
+.estiloArt{
+    font-size: 15px;
+   
+}
+
+.btn{
+    margin: 5px;
+
+}
+
+.cantidadProductos{
+    font-size: 20px;
+    
+}

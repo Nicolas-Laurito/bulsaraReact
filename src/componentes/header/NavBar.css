@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "bulsara";
+  src: url(../header/fuentes/bulsara.ttf);
+}
+
+.navegacion {
+  font-size: 20px;
+  position: relative;
+  font-weight: 120;
+  font-family: bulsara;
+  text-align: center;
+}
+
+.navegacion ul{
+  list-style: none;
+}
+
+.nav-link{
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  
+  color: rgba(0, 0, 0, 0.829);
+  text-decoration: none;
+}
+
+
+.menu >li> .nav-link:hover{
+  color:black;
+  font-weight: 10;
+  transition: all 2s;
+  
+}
+
+.subMenu{
+  position: absolute;
+  display: none;
+  
+  flex-direction: row;
+/* margin-left: 20px; */
+margin-top: 0;
+  
+}
+.subMenu li{
+  margin: 0;
+  font-size: 15px;
+  
+  
+  text-align: left;
+  width: 200px;
+  
+}
+
+
+.menu li:hover .subMenu{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+  
+} 
+ 

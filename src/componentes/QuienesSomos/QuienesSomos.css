@@ -1,0 +1,35 @@
+/* .sec2 {
+    min-height: 650px;
+    padding-top: 150px;
+}     */
+    .logo{
+        justify-content: center;
+        display: flex;
+    }
+    
+        img{
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            padding: 10%;
+        } 
+      
+    .quienSomos{
+        text-align: center;
+        padding: 5%;
+    }
+
+    h2{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        text-shadow: 2px 2px 6px rgb(150, 231, 133);
+        font-weight: bold;
+    }
+
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        text-shadow: 1px 1px 6px white;
+        font-weight: bold;
+
+    }

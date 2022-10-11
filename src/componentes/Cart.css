@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "bulsara";
+    src: url(./header/fuentes/bulsara.ttf)
+    
+  }
+
+.estiloImgCarrito{
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+}
+
+.acomodarCarrito{
+    display: flex;
+    flex-direction: row;
+}
+
+.estiloDos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.estiloTabla{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+
+
+.estiloHead{
+    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(#219900, #7ca172);
+}
+
+.estiloBody{
+    margin-top: 10px;
+    
+}
+
+.estiloBody td{
+    padding: 5px;
+}
+
+.estiloLineas{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: inset 10px #21990062;
+     
+}
+
+.estiloFoot{
+    text-align: center;
+}
+
+.botonHome{
+    width: 150px;
+    margin-left: 43%;
+  
+}
+
+.cartVacio{
+    margin-top: 50px;
+}
+h2{
+    font-family: 'bulsara';
+    
+}
